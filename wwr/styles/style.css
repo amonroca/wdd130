@@ -8,8 +8,6 @@
 nav {
     display: flex;
     justify-content: space-around;
-/*     opacity: 0.6;
-    background-color: #060B0F; */
 }
 
 nav a {
@@ -135,9 +133,68 @@ footer p a:hover {
     margin-top: 10px;
 }
 
+.rivers-title {
+    color: white;
+    font-family: 'Titillium Web', 'Arial', 'Lucida Sans', sans-serif;
+    font-size: 2em;
+    margin-top: 90px;
+}
+
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.rivers-text-salmon-river {
+    grid-column: 1/6;
+    grid-row: 2/5;
+    text-align: justify;
+    color: white;
+}
+
+.rivers-img-salmon-river {
+    grid-column: 6/11;
+    grid-row: 2/5;
+    max-width: 96%;
+    margin: 75px 0 0 auto;
+}
+
+.rivers-text-gray-canyon {
+    grid-column: 6/11;
+    grid-row: 6/10;
+    text-align: justify;
+    color: white;
+}
+
+.rivers-img-gray-canyon {
+    grid-column: 1/6;
+    grid-row: 6/10;
+    max-width: 96%;
+    margin: 75px auto auto 0;
+}
+
+.rivers-text-grand-canyon {
+    grid-column: 1/6;
+    grid-row: 11/14;
+    text-align: justify;
+    color: white;
+}
+
+.rivers-img-grand-canyon {
+    grid-column: 6/11;
+    grid-row: 11/14;
+    max-width: 96%;
+    margin: 75px 0 0 auto;
+}
+
+.rivers-subtitles {
+    color: #FEFED5;
+    margin-top: 75px;
 }
 
 .book, .join {
